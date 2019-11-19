@@ -1,29 +1,47 @@
-# myblog
+# vuepress-theme-reco-demo
 
-## Project setup
+Blog demo for vuepress-theme-reco
+
+## Experience
+
+**npx**
+
 ```
+npx @vuepress-reco/theme-cli init my-blog
+```
+
+**npm**
+
+```bash
+# init
+npm install @vuepress-reco/theme-cli -g
+theme-cli init my-blog
+
+# install
+cd my-blog
+npm install
+
+# run
+npm run dev
+
+# build
+npm run build
+```
+
+**yarn**
+
+```bash
+# init
+yarn global add @vuepress-reco/theme-cli
+theme-cli init my-blog
+
+# install
+cd my-blog
 yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+# run
+yarn dev
 
-### Compiles and minifies for production
+# build
+yarn build
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
