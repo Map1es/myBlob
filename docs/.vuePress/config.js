@@ -65,7 +65,11 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "ywj",
-    "startYear": "2019"
+    "startYear": "2019",
+    "valineConfig": {
+      "appId": '20zdtmWhgFMvmSpDa0jdWnLM-gzGzoHsz',// your appId
+      "appKey": 'ze3QpuCF431T1gpRTgO9r7Fd', // your appKey
+    }
   },
   "markdown": {
     "lineNumbers": true

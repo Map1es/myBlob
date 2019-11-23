@@ -770,7 +770,7 @@
   resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.0.3.tgz#a5758d04b1314d02a6bc39fc75d9c8a239a54b98"
   integrity sha512-IALgBvsi0Z1Kt/KcVoQ5lGB4SaCo0TQraZ1Y6Efh6rE9aYEHJkr//kssSk/YnMIPUYv4Xf1TZzct+CV4qChqow==
 
-"@vuepress-reco/vuepress-plugin-comments@^1.0.7":
+"@vuepress-reco/vuepress-plugin-comments@^1.0.7", "@vuepress-reco/vuepress-plugin-comments@^1.0.8":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-1.0.8.tgz#4f87e817f27f669cb9eaf94159fcfc493f638256"
   integrity sha512-h0ysRnALEyedcwkuEgdajW9/D5xBD4IGkAK1KldS7H95gt9gPXsF6vu+xATuscQqTBMZQ/3hZBmBc0WvwHEOgA==

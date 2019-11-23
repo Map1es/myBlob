@@ -10,5 +10,8 @@
     "vuepress": "1.2.0",
     "vuepress-theme-reco": "1.1.1"
   },
-  "description": "ywj"
+  "description": "ywj",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.0.8"
+  }
 }
