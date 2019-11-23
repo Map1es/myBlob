@@ -59,7 +59,7 @@ module.exports = {
         "text": "标签"
       }
     },
-    "logo": "/head.png",
+    // "logo": "/head.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
