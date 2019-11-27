@@ -64,6 +64,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
+    "themePicker": false,
     "author": "ywj",
     "startYear": "2019",
     "valineConfig": {
@@ -73,5 +74,9 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  plugins: [
+    ["@vuepress-reco/vuepress-plugin-screenfull", false], // disabled.
+    ["@vuepress-reco/vuepress-plugin-loading-page", false] // disabled.
+  ]
 }
