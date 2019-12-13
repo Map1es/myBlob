@@ -1,6 +1,6 @@
  #!/bin/bash
 
-WEB_PATH='./'$1
+WEB_PATH='myBlog'
 WEB_USER='root'
 WEB_USERGROUP='root'
 

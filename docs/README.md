@@ -2,9 +2,9 @@
 home: true
 bgImage: '/banner.jpg'
 bgImageStyle: {
-  height: '450px'
+  height: '300px'
 }
-faceImage: '/head.png'
+faceImage: '/head.jpg'
 # heroImage: /hero_write.png
 heroImageStyle: {
   maxHeight: '200px',
