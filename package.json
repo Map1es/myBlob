@@ -1,7 +1,7 @@
 {
   "name": "my-blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "Maple",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
@@ -10,7 +10,7 @@
     "vuepress": "1.2.0",
     "vuepress-theme-reco": "1.1.1"
   },
-  "description": "ywj",
+  "description": "Maple",
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-comments": "^1.0.8"
   }

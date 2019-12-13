@@ -1,6 +1,6 @@
 module.exports = {
   "title": "Maple",
-  "description": "咸鱼划水",
+  "description": "欢迎讨论，不喜勿喷",
   "dest": "public",
   "head": [
     [
@@ -65,7 +65,7 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "themePicker": false,
-    "author": "ywj",
+    "author": "Maple",
     "startYear": "2019",
     "valineConfig": {
       "appId": '20zdtmWhgFMvmSpDa0jdWnLM-gzGzoHsz',// your appId
