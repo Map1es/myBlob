@@ -67,7 +67,7 @@ module.exports = {
     "themePicker": false,
     "author": "Maple",
     "startYear": "2019",
-    "record": '粤ICP备19046597号-1',
+    "record": '粤ICP备19046597号',
     "valineConfig": {
       "appId": '20zdtmWhgFMvmSpDa0jdWnLM-gzGzoHsz',// your appId
       "appKey": 'ze3QpuCF431T1gpRTgO9r7Fd', // your appKey
