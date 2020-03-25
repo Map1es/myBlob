@@ -1,6 +1,6 @@
 module.exports = {
   "title": "Maple",
-  "description": "欢迎讨论，不喜勿喷",
+  "description": "欢迎讨论",
   "dest": "public",
   "head": [
     [
