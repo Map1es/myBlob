@@ -1,4 +1,5 @@
 module.exports = {
+  "base": "/",
   "title": "Maple",
   "description": "欢迎讨论",
   "dest": "public",

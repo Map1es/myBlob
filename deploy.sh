@@ -1,16 +1,25 @@
- #!/bin/bash
+#!/usr/bin/env sh
 
-WEB_PATH='myBlog'
-WEB_USER='root'
-WEB_USERGROUP='root'
+# 确保脚本抛出遇到的错误
+set -e
 
-echo "Start deployment"
-cd $WEB_PATH
-echo "pulling source code..."
-git reset --hard origin/master
-git clean -f
-git pull
-git checkout master
-echo "changing permissions..."
-chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
-echo "Finished."
+# 生成静态文件
+npm run docs:build
+
+# 进入生成的文件夹
+cd docs/.vuepress/dist
+
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
+
+git init
+git add -A
+git commit -m 'deploy'
+
+# 如果发布到 https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+
+cd -
