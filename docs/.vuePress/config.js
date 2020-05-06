@@ -1,5 +1,5 @@
 module.exports = {
-  "base":"/myBlob/",
+  base: "/myBlob/",
   "title": "Maple",
   "description": "欢迎讨论",
   "head": [
