@@ -1,8 +1,7 @@
 module.exports = {
-  "base": "/public/",
+  "base": "/",
   "title": "Maple",
   "description": "欢迎讨论",
-  "dest": "public",
   "head": [
     [
       "link",
